@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>VueLearn</title>
+	<script src="./vue.js"></script>
+</head>
+<body>
+	<div id="root">
+		<h1 @Click="handleClick()" v-text="msg" :title="msg"></h1>
+		<input type="text" v-model="content">
+		<div>{{content}}</div>
+
+		<ul>
+			<li v-for="(item ,index) of list" :key="index">{{item}}</li>
+		</ul>
+
+		<div v-if="show">if</div>
+		<div v-show="show">show</div>
+		<input type="button" value="show if" @Click="shows()">
+	</div>
+	<script>
+		new Vue({
+			el: "#root",
+			data: {
+				msg: "Vue入门",
+				content: "双向数据绑定",
+				list: [1 , 2 , 3],
+				show: true
+			},
+			methods: {
+				handleClick: function() {
+					this.msg += "methods绑定事件"
+				},
+				shows:function(){
+					this.show = !this.show
+				}
+			}
+			
+		})
+	</script>
+</body>
+</html>
