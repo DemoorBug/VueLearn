@@ -1,5 +1,5 @@
 # vue 入门
->[https://www.imooc.com/video/16987](vue2.5入门)
+>[vue2.5入门](https://www.imooc.com/video/16987)
 
 > A Vue.js project
 
