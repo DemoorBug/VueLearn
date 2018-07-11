@@ -32,7 +32,8 @@ components: 模板
 应该是创建一个'delete'事件 ?
 this.$emit('delete',this.index)
 ```
-***安装vue-cli***
+>安装vue-cli
+
 ```
 npm install -g vue-cli
 vue init webpack {{项目名}}
