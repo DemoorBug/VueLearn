@@ -3,11 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>VueLearn</title>
-	<script src="./vue.js"></script>
+	<script src="../vue.js"></script>
+	<style>
+		.misgs {
+			color: red;
+		}
+	</style>
 </head>
 <body>
 	<div id="root">
-		<input v-model="fullName" :class='misgs' :style="[{fontSize:'20px'}]"></input>
+		<input v-model="fullName" :class='{misgs}' :style="[{fontSize:'20px'}]" @Click="click"></input>
 	</div>
 	<script>
 		var vm = new Vue({
@@ -27,7 +32,12 @@
 						this.firstName = '1';
 					}
 				}
-			}
+			},
+			methods: {
+				click: function (){
+					this.misgs = !this.misgs
+				}
+			} 
 			
 		})
 	</script>
