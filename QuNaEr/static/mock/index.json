@@ -1,0 +1,68 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/c6/2467595fffc3b302.jpg_750x200_cca13d51.jpg"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/8d/f71f1f07ced20802.jpg_750x200_1aed3b5a.jpg"
+      }],
+    "iconList": [{
+        "id": "001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      }, {
+        "id": "002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "去哪儿"
+      }, {
+        "id": "003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "去哪儿"
+      }, {
+        "id": "004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "去哪儿"
+      }, {
+        "id": "005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "去哪儿"
+      }, {
+        "id": "006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "去哪儿"
+      }, {
+        "id": "007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "去哪儿"
+      }, {
+        "id": "008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "去哪儿"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1411/b8/f5fd5955bdecc923ce6d40ce453160eb.water.jpg_250x250_de106da6.jpg",
+        "title": "大连圣亚海洋世界",
+        "desc": "浪漫大连首战，浪漫的海洋主题乐园"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1411/b8/f5fd5955bdecc923ce6d40ce453160eb.water.jpg_250x250_de106da6.jpg",
+        "title": "大连圣亚海洋世界",
+        "desc": "浪漫大连首战，浪漫的海洋主题乐园"
+      }],
+    "WeekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1810/92/d713ba62272715.jpg_r_640x214_88079161.jpg",
+        "title": "大连圣亚海洋世界",
+        "desc": "浪漫大连首战，浪漫的海洋主题乐园"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1810/92/d713ba62272715.jpg_r_640x214_88079161.jpg",
+        "title": "大连圣亚海洋世界",
+        "desc": "浪漫大连首战，浪漫的海洋主题乐园"
+      }]
+  }
+}
