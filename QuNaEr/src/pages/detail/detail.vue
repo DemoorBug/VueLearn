@@ -24,10 +24,8 @@ export default {
         children: [{
           title: '成人三管联票',
           children: [{
-          title: '成人三管联票',
-        }, {
-          title: '成人无关联票'
-        }]
+            title: '成人三管联票'
+          }]
         }, {
           title: '成人无关联票'
         }]
