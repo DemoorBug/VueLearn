@@ -9,7 +9,6 @@
       </router-link>
       景点详情
     </div>
-    <div class="content"></div>
   </div>
 </template>
 
@@ -84,7 +83,4 @@ export default {
       position: absolute
       top: 0
       left: 0
-  .content {
-    height 54rem
-  }
 </style>
