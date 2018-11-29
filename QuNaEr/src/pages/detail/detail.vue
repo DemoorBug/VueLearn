@@ -2,7 +2,9 @@
   <div>
     <detail-banner :sightName="sightName" :bannerImg="bannerImg" :gallaryImgs="gallaryImgs"></detail-banner>
     <detail-header></detail-header>
-    <detail-list :list="categoryList"></detail-list>
+    <div class="name">
+      <detail-list :list="categoryList"></detail-list>
+    </div>
   </div>
 </template>
 
@@ -53,5 +55,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
+  .name
+    height 30rem
 </style>
